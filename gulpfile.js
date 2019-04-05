@@ -8,6 +8,14 @@ const autoprefixer = require("gulp-autoprefixer");
 const rename = require("gulp-rename");
 const cleanCss = require("gulp-clean-css");
 
+const assets = [
+    "./src/index.html",
+    "./src/fonts",
+    "./src/img",
+    "./src/mobirise",
+    "./src/mobirise/*"
+];
+
 
 // const build = gulp.series(buildJs, buildCss, buildHtml);
 
