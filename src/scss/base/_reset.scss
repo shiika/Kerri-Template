@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $nunito;
+    font-size: 1.6rem;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+section {
+    padding: 10rem 0;
+}
+
+footer {
+    padding: 7rem 0;
+}

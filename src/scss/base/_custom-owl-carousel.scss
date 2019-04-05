@@ -1,0 +1,26 @@
+.owl-theme {
+
+    .owl-dots {
+
+        .owl-dot {
+
+            span {
+                background-color: #e65f78;
+                opacity: .5;
+                width: 1.2rem;
+                height: .6rem;
+                transition: all .3s;
+
+            }
+        }
+
+        .owl-dot.active {
+            span {
+                background-color: #e65f78;
+                opacity: 1;
+                width: 2rem;
+                height: .6rem;
+            }
+        }
+    }
+}

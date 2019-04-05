@@ -1,0 +1,26 @@
+@mixin mont-font {
+    font-family: $mont !important;
+}
+
+@mixin nunito-font {
+    font-family: $nunito !important;
+}
+
+
+
+@mixin nav-scroll-bottom {
+    padding: 1.5rem 0;
+    background-color: white;
+
+    .navbar-nav .nav-item .nav-link {
+        color: $nav-color-1;
+        line-height: 2.4rem;
+    }
+
+    &.navbar-dark {
+
+        .navbar-toggler {
+            color: black;
+        }
+    }
+}

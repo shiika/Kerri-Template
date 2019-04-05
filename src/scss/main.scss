@@ -1,0 +1,25 @@
+@import 'Abstracts/variables';
+@import 'bootstrap/bootstrap.scss';
+
+@import 'Abstracts/mixins';
+@import 'Abstracts/utilities';
+
+@import 'base/reset';
+@import 'base/animations';
+// @import 'base/custom-owl-carousel';
+
+
+@import 'components/navbar';
+@import 'components/social-nav';
+@import 'components/section-header';
+@import 'components/sub-nav';
+
+@import 'layout/header';
+@import 'layout/aboutus';
+@import 'layout/services';
+@import 'layout/hireme';
+@import 'layout/clients';
+@import 'layout/works';
+@import 'layout/blog';
+@import 'layout/callus';
+@import 'layout/footer';

@@ -1,0 +1,24 @@
+.blog {
+
+    &__item {
+        padding: 2rem;
+
+        
+
+        &__img {
+            width: 100%;
+        }
+
+        &__text {
+
+            a {
+                font-size: 2rem;
+                text-decoration: none;
+
+                &:last-child {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}

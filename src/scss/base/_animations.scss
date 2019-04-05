@@ -1,0 +1,28 @@
+.nav-scroll-bottom {
+    padding: 1.5rem 0;
+    background-color: white;
+
+    .navbar-nav .nav-item .nav-link {
+        color: $nav-color-1;
+        line-height: 2.4rem;
+    }
+
+    &.navbar-dark {
+
+        .navbar-toggler {
+            color: black;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .nav-scroll-top {
+        padding: 2rem 0;
+        background-color: transparent;
+    
+        .navbar-nav .nav-item .nav-link {
+            color: $nav-color-2;
+        }
+    }
+
+} 

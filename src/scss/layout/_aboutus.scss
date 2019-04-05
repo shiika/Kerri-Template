@@ -1,0 +1,22 @@
+.aboutus {
+
+    &__desc {
+
+        &__heading--1 {
+            @include mont-font();
+        }
+
+        &__heading--2 {
+            @include mont-font();
+            font-size: 2.4rem;
+
+            & > span {
+                color: $primary-color;
+            }
+        }
+
+        
+    }
+
+
+}

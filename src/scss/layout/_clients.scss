@@ -1,0 +1,33 @@
+.clients {
+    background-color: #f8f9fa;
+
+    &__quotes {
+
+        &__item {
+
+            &__icon {
+                color: $primary-color;
+                font-size: 5rem;
+            }
+
+            &__img {
+                width: 11rem;
+                height: 11rem;
+            }
+
+            .blockquote {
+                
+                p {
+                    font-size: 1.8rem;
+                    max-width: 75rem;
+                    margin-top: 2rem;
+                }
+
+                &-footer {
+                    font-size: 1.6rem;
+                }
+            }
+            
+        }
+    }
+}

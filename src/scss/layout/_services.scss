@@ -1,0 +1,43 @@
+.services {
+    background-color: #f8f9fa;
+
+    &__details {
+
+        &__item {
+            border: 1px solid #E8E8E8;
+            padding: 2.4rem;
+
+            &:hover {
+                h3::after {
+                    width: 6rem;
+                }
+
+            }
+
+
+        }
+
+        i {
+            color: $primary-color;
+            font-size: 4.4rem;
+        }
+
+        &__text {
+            
+            h3 {
+                font-size: 2rem;
+
+                &::after {
+                    content: '';
+                    background-color: $primary-color;
+                    width: 4rem;
+                    height: .2rem;
+                    margin: 1.5rem auto;
+                    transition: all .6s;
+                }
+            }
+
+
+        }
+    }
+}

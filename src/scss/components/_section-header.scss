@@ -1,0 +1,22 @@
+.section-header {
+    text-align: center;
+
+    h1 {
+        font-family: $mont;
+        font-size: 3.2rem;
+        color: $heading-color;
+        margin-bottom: .8rem;
+        text-transform: capitalize;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    p {
+        max-width: 50rem;
+        color: $para-color;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

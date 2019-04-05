@@ -1,0 +1,71 @@
+.navbar {
+    font-family: $nunito;
+    transition: all .6s;
+
+    @include media-breakpoint-down(sm) {
+
+        .container {
+            width: 85%;
+        }
+
+        @include nav-scroll-bottom();
+
+    }
+
+    &-brand {
+        .img-fluid {
+            height: 2.7rem;
+            transition: all 2s;
+        }
+    }
+
+    &-nav {
+
+        .nav-item {
+            .nav-link {
+                color: $nav-color-2;
+                font-size: 1.5rem;
+                letter-spacing: 0.75px;
+                font-weight: 600;
+                padding-top: .8rem;
+                padding-bottom: .8rem;
+                transition: all .3s;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+
+            .nav-link.active {
+                color: $primary-color;
+            }
+        }
+
+        .nav-item.active {
+            .nav-link {
+                color: $primary-color;
+            }
+        }
+
+    }
+
+    //Customizing navbar btn toggler 
+    &-dark {
+
+        
+        .navbar-toggler {
+            @include media-breakpoint-down(sm) {
+                font-size: 26px;
+            }
+            
+            border: none;
+            font-size: 35px;
+            color: white;
+            padding: 0;
+            
+            &>span {
+                line-height: 1;
+            }
+        }
+    }
+}
