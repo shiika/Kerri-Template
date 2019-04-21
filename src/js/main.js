@@ -1,5 +1,5 @@
 // Header typing animation
-import Typed from './typedjs/typed.js';
+import Typed from './typed.js';
 
 // Owl carousel slider
 $(document).ready(function () {
