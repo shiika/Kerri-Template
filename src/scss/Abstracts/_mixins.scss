@@ -17,6 +17,16 @@
         line-height: 2.4rem;
     }
 
+    .navbar-brand {
+        .img-bottom {
+            display: block;
+        }
+
+        picture {
+            display: none;
+        }
+    }
+
     &.navbar-dark {
 
         .navbar-toggler {

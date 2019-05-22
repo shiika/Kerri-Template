@@ -21,18 +21,15 @@ $(document).ready(function () {
 
     // navbar scroll animation
     const navbar = document.querySelector(".navbar");
-    const logo = document.querySelector(".navbar-brand picture source:nth-child(2)");
 
     document.addEventListener("scroll", function (e) {
         let pageTop = document.documentElement.scrollTop;
         if (pageTop > 30) {
             navbar.classList.add("nav-scroll-bottom");
             navbar.classList.remove("nav-scroll-top");
-            logo.srcset = "img/logo-dark.png";
         } else {
             navbar.classList.add("nav-scroll-top");
             navbar.classList.remove("nav-scroll-bottom");
-            logo.srcset = "img/logo.png";
         }
     });
 

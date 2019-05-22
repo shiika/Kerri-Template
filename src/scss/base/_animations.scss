@@ -7,10 +7,28 @@
         line-height: 2.4rem;
     }
 
+    picture {
+        display: none;
+    }
+
+    .navbar-brand {
+        .img-bottom {
+            display: block;
+        }
+    }
+
     &.navbar-dark {
 
         .navbar-toggler {
             color: black;
+        }
+    }
+}
+
+.nav-scroll-top {
+    .navbar-brand {
+        .img-bottom {
+            display: none;
         }
     }
 }
