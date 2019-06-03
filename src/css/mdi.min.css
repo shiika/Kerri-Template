@@ -42,3 +42,7 @@
   .mdi-pinterest:before {
     content: "\F407";
   }
+
+  .mdi-menu:before {
+    content: "\F35C";
+  }

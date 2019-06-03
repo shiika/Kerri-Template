@@ -75,3 +75,22 @@ $(document).ready(function () {
         }
     })
 });
+
+const lazyLoad = (entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const img = entry.target;
+            io.unobserve(img);
+            const src = img.getAttribute("data-lazy");
+    
+            img.setAttribute("src", src);
+
+        }
+    });
+}
+
+const imgs = document.querySelectorAll("img[data-lazy]")
+const io = new IntersectionObserver(lazyLoad);
+
+imgs.forEach(img => io.observe(img));
+
