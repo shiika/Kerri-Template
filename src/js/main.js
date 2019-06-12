@@ -20,16 +20,13 @@ $(document).ready(function () {
     var typed = new Typed(".element", options);
 
     // navbar scroll animation
-    const navbar = document.querySelector(".navbar");
 
     document.addEventListener("scroll", function (e) {
         let pageTop = document.documentElement.scrollTop;
         if (pageTop > 30) {
-            navbar.classList.add("nav-scroll-bottom");
-            navbar.classList.remove("nav-scroll-top");
+            $(".navbar").addClass("nav-scroll-bottom").removeClass("nav-scroll-top");
         } else {
-            navbar.classList.add("nav-scroll-top");
-            navbar.classList.remove("nav-scroll-bottom");
+            $(".navbar").addClass("nav-scroll-top").removeClass("nav-scroll-bottom");
         }
     });
 
