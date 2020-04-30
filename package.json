@@ -20,7 +20,7 @@
     "@fortawesome/fontawesome-free": "^5.7.1",
     "@mdi/font": "^3.4.93",
     "bootstrap": "^4.2.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.14.7",
     "typed.js": "^2.0.10",
     "webpack": "^4.32.2",
